@@ -1,0 +1,80 @@
+
+
+/* mobail respons design  */
+
+@media screen and (max-width: 576px) {
+    nav{
+        justify-content: space-between;
+        padding: 20px;
+    }
+    nav ul,nav ul li,nav ul li a, .nav_button{
+        display: none;
+    }
+
+    .hamburg_menu{
+        display: block;
+    }
+
+     .podcast_details{
+        margin-top: 50px;
+    }
+
+    .border, .header_box{
+        border: 1px solid red;
+    }
+    /* .header_box{
+        max-width: 200px;
+        margin: 0 auto;
+    } */
+    .header_details{
+        padding: 10px;
+    }
+    .podcast_details{
+        gap: 15px;
+    }
+    .podcast_items, .footer_list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+    .host_details{
+        flex-wrap: wrap;
+       
+        gap: 20px;
+    }
+    .choice_grid_card, .epsode_card{
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: auto;
+        padding: 20px;
+        
+    } 
+    
+    .second_body{
+        grid-column: span 1;
+    }
+
+    .host_text{
+        text-align: center;
+    }
+    .socal_conatc{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    /* .{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer_list li{
+        width: 40%;
+        justify-content: start;
+    }
+} */
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+}
