@@ -19,15 +19,11 @@
         margin-top: 50px;
     }
 
-    .border, .header_box{
-        border: 1px solid red;
-    }
-    /* .header_box{
-        max-width: 200px;
-        margin: 0 auto;
-    } */
-    .header_details{
+    .header_details, .btns{
         padding: 10px;
+    }
+    .btns{
+        flex-wrap: wrap;
     }
     .podcast_details{
         gap: 15px;
@@ -61,20 +57,61 @@
         margin: 0 auto;
         justify-content: center;
     }
-    /* .{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    .footer_list li{
-        width: 40%;
-        justify-content: start;
-    }
-} */
-
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    .section_bg{
+        padding: 50px 20px;
+    }
+    .choice_grid_card{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .first_body{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    .asside_body{
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    .third_body{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .last_body{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .epsode_card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .project_mid{
+        direction: rtl;
+    }
+    .deuration_video{
+        justify-content: left;
+    }
 }
