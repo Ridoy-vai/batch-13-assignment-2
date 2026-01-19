@@ -7,6 +7,9 @@
         justify-content: space-between;
         padding: 20px;
     }
+    nav h2{
+        font-size: 2rem;
+    }
     nav ul,nav ul li,nav ul li a, .nav_button{
         display: none;
     }
@@ -59,8 +62,17 @@
     }
 }
 
+  /* mediuam device responcive  */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    nav{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    nav h2{
+        font-size: 2.1rem;
+    }
     .section_bg{
         padding: 50px 20px;
     }
@@ -85,17 +97,6 @@
         grid-row: span 1;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     .epsode_card{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -114,4 +115,8 @@
     .deuration_video{
         justify-content: left;
     }
+}
+
+@media screen  and (min-width:992px) and (max-width: 1600px){
+    
 }

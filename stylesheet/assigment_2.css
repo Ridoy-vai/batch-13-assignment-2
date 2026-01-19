@@ -123,6 +123,7 @@ nav h2 .secondline_title, .secondline_footer_title{
 .hamburg_menu{
     display: none;
     color: #ffffff;
+    cursor: pointer;
 
 }
 
